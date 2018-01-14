@@ -13,4 +13,4 @@ echo "export KUBECONFIG=/etc/kubernetes/admin.conf" >> ~/.bash_profile
 # install flannel addon
 kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/v0.9.1/Documentation/kube-flannel.yml
 
-echo "Network addon flannel install successfully! \n" >> ./install-kuber-on-ec2.log
+echo -e "Network addon flannel install successfully! \n" >> ./install-kuber-on-ec2.log
